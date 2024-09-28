@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="start" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="start" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="start">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="bienvenida" min="-2" pref="676" max="-2" attributes="0"/>
+                          <EmptySpace pref="44" max="32767" attributes="0"/>
+                          <Component id="dateText" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="linea8Text" min="-2" max="-2" attributes="0"/>
+                              <Component id="linea7Text" min="-2" max="-2" attributes="0"/>
+                              <Component id="linea6Text" min="-2" max="-2" attributes="0"/>
+                              <Component id="linea5Text" min="-2" max="-2" attributes="0"/>
+                              <Component id="linea4Text" min="-2" max="-2" attributes="0"/>
+                              <Component id="linea3Text" min="-2" max="-2" attributes="0"/>
+                              <Component id="linea2Text" min="-2" max="-2" attributes="0"/>
+                              <Component id="linea1Text" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
+                                  <Component id="bienvenida2" min="-2" pref="336" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="dateText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bienvenida" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="bienvenida2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="linea1Text" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="linea2Text" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="linea3Text" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="linea4Text" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="linea5Text" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="linea6Text" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="linea7Text" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="linea8Text" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="103" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="dateText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Hoy es {dayname} {day} de {month} de {year}"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bienvenida">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Bienvenido al Sistema de Gesti&#xf3;n para la Biblioteca de la Universidad "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bienvenida2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Hermana Elisabeth Guerrero"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="linea1Text">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nuestro sistema est&#xe1; dise&#xf1;ado para la Biblioteca de la Universidad Mariana, permiti&#xe9;ndole gestionar"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="linea2Text">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="y administrar de manera &#xf3;ptima y sencilla el flujo de pr&#xe9;stamos y devoluciones de libros. Con esta "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="linea3Text">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="herramienta, podr&#xe1; llevar un control completo y detallado de su biblioteca. Las funcionalidades "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="linea4Text">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="espec&#xed;ficas incluyen:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="linea5Text">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="- Pr&#xe9;stamos de Libros: Registre y administre los pr&#xe9;stamos de libros de forma eficiente."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="linea6Text">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="- Devoluciones de Libros: Gestione las devoluciones de libros de manera f&#xe1;cil y r&#xe1;pida"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="linea7Text">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="- Registro de Usuarios y Libros Nuevos: A&#xf1;ada nuevos usuarios y libros al sistema con facilidad."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="linea8Text">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="- Nuestra plataforma le proporcionar&#xe1; las herramientas necesarias para realizar tareas espec&#xed;ficas."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
