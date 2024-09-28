@@ -3,6 +3,7 @@ el proyecto está diseñado para ofrecer una solución eficiente y visualmente a
 
 ## Caracteristicas
 ✔️ Interfaz gráfica moderna con Material Design (Look And Feel).
+
 ✔️ Conexión a base de datos MySQL para el almacenamiento de información.
 ✔️ Gestión completa de libros, préstamos y devoluciones .
 ✔️ Implementación de penalizaciones por devoluciones fuera de plazo.
